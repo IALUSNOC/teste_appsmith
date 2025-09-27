@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 34,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "srcDoc"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5bhdigy11u",
+  "leftColumn": 28,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "source": "https://www.example.com",
+  "srcDoc": "<!DOCTYPE html>\n<html>\n<head>\n  <title>OpenLayers Points</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/ol@v10.2.0/ol.css\" rel=\"stylesheet\">\n  <style>\n    html, body, #map { margin: 0; height: 100%; width: 100%; }\n  </style>\n</head>\n<body>\n  <div id=\"map\"></div>\n  <script src=\"https://cdn.jsdelivr.net/npm/ol@v10.2.0/dist/ol.js\"></script>\n  <script>\n    const points = [\n      [{{tbl_Pontos.selectedRow.lon}}, {{tbl_Pontos.selectedRow.lat}}]  \n    ];\n\n    const map = new ol.Map({\n      target: 'map',\n      layers: [\n        new ol.layer.Tile({\n          source: new ol.source.OSM()\n        }),\n        new ol.layer.Vector({\n          source: new ol.source.Vector({\n            features: points.map(point => \n              new ol.Feature({\n                geometry: new ol.geom.Point(ol.proj.fromLonLat(point))\n              })\n            )\n          }),\n          style: new ol.style.Style({\n            image: new ol.style.Circle({\n              radius: 6,\n              fill: new ol.style.Fill({ color: 'red' })\n            })\n          })\n        })\n      ],\n      view: new ol.View({\n        center: ol.proj.fromLonLat(points[0]), \n        zoom: 5\n      })\n    });\n  </script>\n</body>\n</html>",
+  "topRow": 6,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "cxcs6t40xu",
+  "widgetName": "Ifrm_Mapa"
+}
