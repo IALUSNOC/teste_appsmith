@@ -1,13 +1,13 @@
 export default {
   options: {
     title: {
-      text: 'Pontuação por categoria',
-      left: 'center',   // centers the title
-      top: 10,          // adds a bit of padding from the top
+      text: 'Pontuação por Dimensão',
+      left: 'center',
+      top: 10,
       textStyle: {
         fontSize: 25,
         fontWeight: 'bold',
-				color: '#000'
+        color: '#000'
       }
     },
     dataset: {
@@ -25,7 +25,11 @@ export default {
       ]
     },
     grid: { containLabel: true },
-    xAxis: { name: 'Score (%)' },
+    xAxis: { 
+      name: 'Pontuação (%)',
+      nameLocation: 'middle',  
+      nameGap: 30              
+    },
     yAxis: { type: 'category' },
     visualMap: {
       orient: 'horizontal',
@@ -49,4 +53,5 @@ export default {
     ]
   }
 };
+
 
