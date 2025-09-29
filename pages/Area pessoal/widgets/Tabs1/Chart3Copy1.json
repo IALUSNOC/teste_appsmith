@@ -3,30 +3,17 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 101,
+  "bottomRow": 153,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
-    "i6j5c1f48t": {
-      "data": [
-        {
-          "x": "Product1",
-          "y": 20000
-        },
-        {
-          "x": "Product2",
-          "y": 22000
-        },
-        {
-          "x": "Product3",
-          "y": 32000
-        }
-      ],
-      "seriesName": "2023"
+    "tddfootxiy": {
+      "data": "{{ScoreAmbiental_ER.options}}",
+      "seriesName": ""
     }
   },
   "chartName": "Sales Report",
   "chartType": "CUSTOM_ECHART",
-  "customEChartConfig": "{{ ((chartType) => ( ScoreCategory.options))(Chart2.chartType) }}",
+  "customEChartConfig": "{{ ((chartType) => ( ScoreAmbiental_ER.options))(Chart3.chartType) }}",
   "customFusionChartConfig": {
     "dataSource": {
       "chart": {
@@ -88,6 +75,9 @@
       "key": "fontFamily"
     },
     {
+      "key": "chartData.tddfootxiy.data"
+    },
+    {
       "key": "customEChartConfig"
     }
   ],
@@ -96,29 +86,29 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "isLoading": false,
   "isVisible": true,
-  "key": "acht357cy4",
+  "key": "1ei1gnrze9",
   "labelOrientation": "auto",
   "leftColumn": 0,
   "minWidth": 450,
-  "mobileBottomRow": 68,
-  "mobileLeftColumn": 18,
-  "mobileRightColumn": 42,
-  "mobileTopRow": 36,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 1,
   "needsErrorInfo": true,
-  "originalBottomRow": 101,
-  "originalTopRow": 32,
-  "parentColumnSpace": 14.8564453125,
-  "parentId": "f7fm0f1ga5",
+  "originalBottomRow": 153,
+  "originalTopRow": 116,
+  "parentColumnSpace": 15.4755859375,
+  "parentId": "wo40px8ef8",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "showDataPointLabel": false,
-  "topRow": 31,
+  "topRow": 116,
   "type": "CHART_WIDGET",
   "version": 1,
-  "widgetId": "rm9vk4luhw",
-  "widgetName": "Chart2",
+  "widgetId": "fne6otjywe",
+  "widgetName": "Chart3Copy1",
   "xAxisName": "Product Line",
-  "yAxisName": "Revenue($)"
+  "yAxisName": "Pontuação (%)"
 }
