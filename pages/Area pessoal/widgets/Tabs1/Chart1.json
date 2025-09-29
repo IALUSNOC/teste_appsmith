@@ -2,16 +2,16 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowScroll": false,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "borderRadius": "0.375rem",
+  "bottomRow": 31,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "2q0jng8ou3": {
       "data": "[\n  {\n    \"x\": \"Económica\",\n    \"y\": 7000\n  },\n  {\n    \"x\": \"Ambiental\",\n    \"y\": 5000\n  },\n  {\n    \"x\": \"Social\",\n    \"y\": 3000\n  }\n]",
-      "seriesName": "Minha exploração"
+      "seriesName": "A minha exploração"
     }
   },
-  "chartName": "Pontuação Global",
+  "chartName": "Avaliação por dimensão",
   "chartType": "COLUMN_CHART",
   "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
   "customFusionChartConfig": {
@@ -66,9 +66,6 @@
       "key": "customEChartConfig"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -86,7 +83,7 @@
   "isVisible": true,
   "key": "x0psocfnfd",
   "labelOrientation": "auto",
-  "leftColumn": 0,
+  "leftColumn": 23,
   "minWidth": 450,
   "mobileBottomRow": 46,
   "mobileLeftColumn": 4,
@@ -100,10 +97,10 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 38,
+  "rightColumn": 64,
   "setAdaptiveYMin": false,
-  "showDataPointLabel": false,
-  "topRow": 9,
+  "showDataPointLabel": true,
+  "topRow": 3,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "z7ce493y8f",
