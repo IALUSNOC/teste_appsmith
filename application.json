@@ -21,11 +21,23 @@
   "icon": "bitcoin",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Menu",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Forms",
+      "isDefault": false
+    },
+    {
+      "id": "Page1 Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Area pessoal",
+      "isDefault": false
+    },
+    {
+      "id": "Comparação",
       "isDefault": false
     }
   ],

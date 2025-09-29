@@ -1,6 +1,6 @@
 {
   "gitSyncId": "689a091dadd0577f2319aaf2_ae1fe0ae-71dd-4689-bb63-258c600fa1bf",
-  "id": "Page1_qry_getPontos",
+  "id": "Menu_qry_getPontos",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "qry_getPontos",
-    "pageId": "Page1",
+    "pageId": "Menu",
     "userSetOnLoad": false
   }
 }
