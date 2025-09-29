@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 24,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,10 @@
   "mobileRightColumn": 25.5,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 24,
+  "originalTopRow": 20,
   "overflow": "NONE",
-  "parentId": "1c3meik667",
+  "parentId": "0",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 26,
@@ -39,7 +41,7 @@
   "text": "Preencher dados",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 0,
+  "topRow": 20,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
