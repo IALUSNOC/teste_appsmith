@@ -1,7 +1,7 @@
 export default {
   options: {
     title: {
-      text: 'Pontuação por Dimensão',
+      text: 'Pontuação por categoria',
       left: 'center',
       top: 10,
       textStyle: {
