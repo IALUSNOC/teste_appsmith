@@ -144,6 +144,7 @@
     }
   },
   "isCanvas": false,
+  "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "2r1kmc062c",

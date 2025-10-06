@@ -9,7 +9,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 280,
+      "bottomRow": 300,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -81,7 +81,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 23,
   "shouldScrollContents": true,
-  "topRow": 3,
+  "topRow": 1,
   "type": "STATBOX_WIDGET",
   "widgetId": "w1y2jwghqv",
   "widgetName": "Statbox1"
